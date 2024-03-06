@@ -46,7 +46,11 @@
 .sidebar {
     background-color: #242457;
     color: white;
-    padding: 3rem;
+    padding: 3%;
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 footer img {
@@ -57,6 +61,7 @@ footer img {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display: flex;
 }
 
 .image-container{
@@ -78,6 +83,14 @@ footer {
 }
 
 /* CODE YOUR FLEXBOXES HERE */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+}
 nav {
     display: flex;
 }
